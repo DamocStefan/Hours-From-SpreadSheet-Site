@@ -1,0 +1,79 @@
+body {
+    background-color: whitesmoke;
+}
+textarea{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: auto;
+}
+.line{
+    border: 2px solid rgba(57,68,117,255);
+}
+.image {
+    padding: 0px;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(68, 79, 124, 255);
+}
+
+button:hover {
+    background-color: rgba(68, 79, 124, 255);
+    color: white;
+}
+
+.zui-table {
+    border: solid 1px white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    width: 100%;
+}
+
+.zui-table thead th {
+    background-color: rgba(68, 79, 124, 255);
+    border: solid 1px #DDEEEE;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.zui-table tbody td {
+    background-color: white;
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+.left{
+    margin: 10px;
+}
+.right{
+    margin-top: 10px;
+}
